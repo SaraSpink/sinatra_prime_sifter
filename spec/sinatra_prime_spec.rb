@@ -7,5 +7,10 @@ describe('Stuff#check') do
     expect(list.check).to eq(true)
   end
 
+  it("returns true if you use the attribute variable") do
+    number = Prime.new(@number)
+    expect(list.check).to eq(true)
+  end
+
 
 end
